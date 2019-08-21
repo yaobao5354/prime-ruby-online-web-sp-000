@@ -4,7 +4,8 @@ def prime?(integer)
     return true
   else 
     array = (2..integer-1).to_a
-    prime_array = array.each do |number| 
+    prime_array = []
+    array.each do |number| 
       if integer % number == 0
         prime_array << number
       end 
