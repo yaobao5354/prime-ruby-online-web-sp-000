@@ -10,10 +10,10 @@ def prime?(integer)
         prime_array << number
       end 
     end
-  end 
-  if prime_array.length > 0 
-    return true 
-  else 
-    return false 
+    if prime_array.length > 0 
+      return true 
+    else 
+      return false 
+    end 
   end 
 end 
