@@ -13,9 +13,9 @@ def prime?(integer)
       end 
     end
     if prime_array.length > 0 
-      return true 
-    else 
       return false 
+    else 
+      return true 
     end 
   end 
 end 
