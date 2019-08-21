@@ -12,7 +12,7 @@ def prime?(integer)
         factor_array << number
       end 
     end
-    if prime_array.length > 0 
+    if factor_array.length > 0 
       return false 
     else 
       return true 
