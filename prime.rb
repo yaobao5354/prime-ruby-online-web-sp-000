@@ -8,8 +8,6 @@ def prime?(integer)
     array.each do |number| 
       if integer % number == 0
         prime_array << number
-      else 
-        false
       end 
     end
     if prime_array.length > 0 
